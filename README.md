@@ -1,2 +1,2 @@
 # landingPage
-This is my landing page assignmenr for The Odin Project
+This is my landing page assignment for The Odin Project
