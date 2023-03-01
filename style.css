@@ -9,14 +9,16 @@
 
 .hero {
     background-color: #1f2937;
-    /*color: #f9faf8;*/
     display: flex;
     flex-direction: column;
+    padding: 15px 150px;
+    padding-bottom: 100px;
+    gap: 50px;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .links {
@@ -49,19 +51,14 @@ ul {
 }
 
 .hero-text-container {
-    box-sizing: border-box;
     display: flex;
-    height: 300px;
-    margin: 60px;
+    justify-content: space-between;
     gap: 25px;
 }
 
 .photo-placeholder {
     background-color: gray;
     color: white;
-}
-
-.photo-placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,4 +66,13 @@ ul {
 
 .left-text-hero, .right-text-hero {
     flex-basis: 50%;
+}
+
+.button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: #f9faf8;
+    margin-top: 10px;
 }
